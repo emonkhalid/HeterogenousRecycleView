@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="9dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="9dp"
+    app:contentPadding="3dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/imageviewMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:src="@drawable/mobile"
+            />
+
+        <TextView
+            android:id="@+id/textviewMobileModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pixel"
+            android:layout_alignRight="@+id/imageviewMobile"
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/textviewMobileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/imageviewMobile"
+            android:layout_below="@+id/textviewMobileModel"
+            android:text="Google Pixel 3"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/textviewMobileBrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/imageviewMobile"
+            android:layout_below="@+id/textviewMobileName"
+            android:text="Google Pixel "
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:id="@+id/textviewMobileManufactureYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/imageviewMobile"
+            android:layout_below="@+id/textviewMobileBrand"
+            android:text="2018"
+            android:padding="5dp"
+            />
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
